@@ -1,0 +1,35 @@
+.cover{
+	width: 300px; 
+	height: 300px; 
+	display: inline-block; 
+	background-size: cover;
+}
+.cover:hover {
+    cursor: pointer;
+}
+.cover.playing {
+    border: 5px solid #e45343;
+}
+.form-group label{
+	color:black;
+}
+.my-image{
+	z-index: -1;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url('../images/_MG_2381.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	opacity: 0.6;
+}
+.row-centered{
+	text-align: center;
+}
+.col-centered{
+	float: none;
+	display: inline-block
+}
